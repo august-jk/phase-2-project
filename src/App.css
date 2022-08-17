@@ -14,6 +14,10 @@ body {
 ul {
  list-style-type: none;
 }
+.form {
+  float: left;
+
+}
 
 li {
   float: left;
@@ -76,4 +80,13 @@ thead, th {
 td {
 		position: relative;
     border: 1px solid;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input [type='submit'] {
+  max-width: 25%;
 }
