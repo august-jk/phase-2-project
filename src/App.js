@@ -18,8 +18,26 @@ function App() {
   const updatedParts = parts.filter(part => {
     if(part.name.toLowerCase().includes(search.toLowerCase()))return true;
     else if(part.partNumber.includes(search)) return true;
+    else return false;
   })
-  
+  const handleAddPart = (part) => {
+    const partData = {
+      id: parts.length + 1,
+      name: part.name,
+      partNumber: part.partNumber,
+      price: part.price,
+      category: part.category
+    }
+    setParts([...parts, partData])
+    fetch('http://localhost:3000/parts', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(partData)
+    })
+    .then(r => r.json())
+  }
   const handleSearch = (searchInput) => {
     
     setSearch(searchInput)
@@ -31,7 +49,7 @@ function App() {
       <Routes>
         <Route path='/inventory' element={<Inventory parts={updatedParts} onSearch={handleSearch}/>}>
         </Route>
-        <Route path='/form' element={<Form />}>
+        <Route path='/form' element={<Form onAddPart={handleAddPart}/>}>
         </Route>
         <Route path='/' element={<Home />}>
         </Route>
