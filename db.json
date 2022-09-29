@@ -5,42 +5,42 @@
       "name": "Heat Exchanger",
       "partNumber": "11000416",
       "price": 95,
-      "category": "dryer"
+      "category": "Dryer"
     },
     {
       "id": 2,
       "name": "Oven Display Motor",
       "partNumber": "815604",
       "price": 165,
-      "category": "oven/range"
+      "category": "Oven/Range"
     },
     {
       "id": 3,
       "name": "Dishwasher Handle",
       "partNumber": "526743",
       "price": 75,
-      "category": "dishwasher"
+      "category": "Dishwasher"
     },
     {
       "id": 4,
       "name": "Dryer Lint Catcher",
       "partNumber": "652184",
       "price": 22.35,
-      "category": "dryer"
+      "category": "Dryer"
     },
     {
       "id": 5,
       "name": "Faucet Hot/Cold Indicator Cap",
       "partNumber": "130976SL",
       "price": 18.03,
-      "category": "plumbing"
+      "category": "Plumbing"
     },
     {
       "id": 6,
       "name": "Toilet Fill Valve",
       "partNumber": "GP1138930",
       "price": 21,
-      "category": "plumbing"
+      "category": "Plumbing"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "name": "Pop-up Drain Stopper",
       "partNumber": "89237",
       "price": 25,
-      "category": "plumbing"
+      "category": "Plumbing"
     }
   ]
 }
