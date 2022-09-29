@@ -17,7 +17,7 @@ function App() {
   }, [])
   const updatedParts = parts.filter(part => {
     if(part.name.toLowerCase().includes(search.toLowerCase()))return true;
-    else if(part.partNumber.includes(search)) return true;
+    else if(part.partNumber.toLowerCase().includes(search)) return true;
     else return false;
   })
   const handleAddPart = (part) => {
