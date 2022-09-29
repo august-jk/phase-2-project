@@ -43,12 +43,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route 
-          path='/inventory' 
-          element={
-            <Inventory 
-              parts={updatedParts} 
-              onSearch={handleSearch}/>}>
+        <Route path='/inventory' element={<Inventory parts={updatedParts} onSearch={handleSearch}/>}>
         </Route>
         <Route path='/form' element={<Form onAddPart={handleAddPart}/>}>
         </Route>
