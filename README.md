@@ -2,18 +2,17 @@
 
 ## Welcome to my Inventory List app!
 
-
 I created this single-page react app to help at my job since we use a lot of individual parts and the list is hard to sift through when you're trying to find a specific part.
 
 This app allows you to add your own parts to the list, search specific parts, and check the price for the part based on a percentage markup (which is what we do at my job, except on a completely unorganized and messy excel spreadsheet!)
 
-## Form
+## Controlled Form
 
 Add new parts to the inventory list using the Add Parts route.
 
 The new part will be added at the end of the inventory list
 
-## Filter
+## Search
 
 Use the search bar to search for a specific part based on the name or part number.
 
