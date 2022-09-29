@@ -38,11 +38,7 @@ function App() {
     })
     .then(r => r.json())
   }
-  const handleSearch = (searchInput) => {
-    
-    setSearch(searchInput)
-    
-  }
+  const handleSearch = (searchInput) => setSearch(searchInput)
   return (
     <div className="App">
       <Navbar />
