@@ -41,12 +41,13 @@ p {
 }
 
 h1 {
-  padding: 75px;
+  padding-top: 75px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   color: lavenderblush;
   font-size:xxx-large;
-
+  font-weight: lighter;
+  
 }
 
 body {
