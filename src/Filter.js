@@ -6,8 +6,7 @@ function Filter({ parts, onSearch }) {
     return (
         <div className="filter">
             <form onSubmit={handleSubmit}>
-                <input type='text' placeholder="Filter Parts" onChange={(e) => handleFilter(e.target.value)}></input>
-                <input type='submit'></input>
+                <input type='text' placeholder="Search Parts" onChange={(e) => handleFilter(e.target.value)}></input>
             </form>
         </div>
     )
